@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/search"
+        android:title="검색사이트" >
+        <menu >
+            <item
+                android:id="@+id/naver"
+                android:title="action_naver" />
+            <item
+                android:id="@+id/google"
+                android:title="google" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/info"
+        android:title="개발자정보" >
+        <menu >
+            <item
+                android:id="@+id/email"
+                android:title="action_email" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="home"
+        app:showAsAction="ifRoom" />
+</menu>
